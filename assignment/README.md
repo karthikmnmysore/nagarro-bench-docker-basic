@@ -57,6 +57,6 @@ curl http://localhost:5000/hello/John
 
 ## 🛠️ Development Notes
 
-- Flask runs in **debug mode** on port **5000**.  
-- Redis runs on **port 6379** (default).  
+- Flask runs in **debug mode** on port `5000`.  
+- Redis runs on port `6379` (default).  
 - Both services are orchestrated with Docker Compose.  

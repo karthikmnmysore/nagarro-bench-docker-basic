@@ -12,8 +12,11 @@ This project is a minimal **Flask web application** running inside **Docker Comp
 ## 📂 Project Structure
 
 ├── app.py # Main Flask application
+
 ├── Dockerfile # Docker image build instructions
+
 ├── docker-compose.yml # Multi-container setup (Flask + Redis)
+
 ├── requirements.txt # Python dependencies
 
 
@@ -58,4 +61,5 @@ curl http://localhost:5000/hello/John
 - Flask runs in **debug mode** on port `5000`.  
 - Redis runs on port `6379` (default).  
 - Both services are orchestrated with Docker Compose.  
+
 
